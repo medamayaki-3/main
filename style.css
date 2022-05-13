@@ -1,0 +1,55 @@
+body {
+  font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  padding-left: 24%;
+  padding-right: 24%;
+  background-color: azure;
+  align-items: center;
+}
+
+p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+span {
+  color: blue;
+  font-weight: bold;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  padding-left: 8px;
+  width: 100px;
+}
+
+th {
+  font-size: 12px;
+  padding: 4px;
+  width: 40px;
+  text-align: center;
+  border-bottom: none;
+}
+
+#main th {
+  color: black;
+  background-color: white;
+  padding: 2px;
+  border-bottom: 3px double #34495e;
+}
+
+
+table {
+  margin-left: 30%;
+  margin-right: 30%;
+  border-collapse: collapse;
+  width: 200px;
+}
